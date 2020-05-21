@@ -28,7 +28,7 @@ jobs:
       run: |
         git rm -r .
         git add docs
-        git config --local user.email "juraj@github.com"
+        git config --local user.email "branislav@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "pages branch" -a
 
